@@ -24,6 +24,8 @@ export default function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 href="/resume/Sumit_Prashant_FrontendDeveloper_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition"
               >
                 Download Resume
@@ -42,7 +44,7 @@ export default function Hero() {
                 href="https://github.com/SumitVIP25"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-700 hover:text-sky-500 transition duration-300 text-3xl"
+                className="text-slate-700 hover:text-sky-500 transition duration-300 text-4xl"
                 aria-label="GitHub"
               >
                 <FaGithub />
@@ -52,7 +54,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/sumit-prashant-1ab200295/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-700 hover:text-sky-500 transition duration-300 text-3xl"
+                className="text-slate-700 hover:text-sky-500 transition duration-300 text-4xl"
                 aria-label="GitHub"
               >
                 <FaLinkedin />
@@ -60,7 +62,7 @@ export default function Hero() {
 
               <a
                 href="mailto: prashantsumit03@gmail.com"
-                className="text-slate-700 hover:text-sky-500 transition duration-300 text-3xl"
+                className="text-slate-700 hover:text-sky-500 transition duration-300 text-4xl"
                 aria-label="Email"
               >
                 <FaEnvelope />

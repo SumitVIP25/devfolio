@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="bg-slate-700 text-white shadow">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6  ">
-        <Link href="/" className="text-2xl font-bold text-blue-400">
+        <Link href="/" className="text-2xl font-bold text-blue-400 px-3">
           DevFolio
         </Link>
 
