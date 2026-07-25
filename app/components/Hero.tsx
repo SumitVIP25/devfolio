@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -20,13 +22,49 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <button className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition">
+              <a
+                href="/resume/Sumit_Prashant_FrontendDeveloper_CV.pdf"
+                className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition"
+              >
                 Download Resume
-              </button>
+              </a>
 
-              <button className="border-2 border-slate-900 text-slate-900 px-6 py-3 rounded-lg font-medium hover:bg-slate-900 hover:text-white transition duration-300">
+              <Link
+                href="/projects"
+                className="border-2 border-slate-900 text-slate-900 px-6 py-3 rounded-lg font-medium hover:bg-slate-900 hover:text-white transition duration-300"
+              >
                 View Projects
-              </button>
+              </Link>
+            </div>
+
+            <div className="mt-10 flex justify-center md:justify-start gap-6">
+              <a
+                href="https://github.com/SumitVIP25"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-700 hover:text-sky-500 transition duration-300 text-3xl"
+                aria-label="GitHub"
+              >
+                <FaGithub />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/sumit-prashant-1ab200295/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-700 hover:text-sky-500 transition duration-300 text-3xl"
+                aria-label="GitHub"
+              >
+                <FaLinkedin />
+              </a>
+
+              <a
+                href="mailto: prashantsumit03@gmail.com"
+                className="text-slate-700 hover:text-sky-500 transition duration-300 text-3xl"
+                aria-label="Email"
+              >
+                <FaEnvelope />
+              </a>
             </div>
           </div>
 
