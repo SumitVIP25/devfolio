@@ -91,10 +91,15 @@ export default function Project() {
             >
               Live Demo
             </a>
-            <p>
-              <span>Email: admin@hrms.com</span>
-              <span className="block">Password: admin123</span>
-            </p>
+
+            <div className="mt-4 text-sm text-slate-600">
+              <p>
+                <strong>Email: </strong>admin@hrms.com
+              </p>
+              <p>
+                <strong>Password: </strong>admin123
+              </p>
+            </div>
           </div>
         </div>
 
@@ -135,6 +140,64 @@ export default function Project() {
             >
               Live Demo
             </a>
+          </div>
+        </div>
+
+        <h2 className="text-3xl font-bold text-slate-900 mt-20 mb-8">
+          Other Projects
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold">Book Store</h3>
+            <p className="mt-2 text-slate-600">
+              A responsive one-page bookstore website built using HTML and CSS.
+            </p>
+            <p className="mt-4 text-sm text-sky-500 font-medium">
+              HTML • CSS • Grid • Media Queries
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold">Trip Together</h3>
+            <p className="mt-2 text-slate-600">
+              A one-page travel website with interactive features and responsive
+              design.
+            </p>
+            <p className="mt-4 text-sm text-sky-500 font-medium">
+              HTML • CSS • JavaScript • Grid • Forms • DOM
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold">IT Website</h3>
+            <p className="mt-2 text-slate-600">
+              Converted a Figma design into a responsive IT company website.
+            </p>
+            <p className="mt-4 text-sm text-sky-500 font-medium">
+              HTML • CSS • CSS Grid • jQuery • Media Queries
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold">Shopping Card UI</h3>
+            <p className="mt-2 text-slate-600">
+              Responsive shopping cart interface developed using modern CSS
+              techniques.
+            </p>
+            <p className="mt-4 text-sm text-sky-500 font-medium">
+              HTML • CSS • CSS Variables • Grid • Media Queries
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-md p-6">
+            <h3 className="text-xl font-semibold">Figma Primal Training</h3>
+            <p className="mt-2 text-slate-600">
+              Responsive UI created from a Figma design using SCSS and
+              Bootstrap.
+            </p>
+            <p className="mt-4 text-sm text-sky-500 font-medium">
+              HTML • SCSS • Bootstrap • Flexbox • Media Queries
+            </p>
           </div>
         </div>
       </div>
