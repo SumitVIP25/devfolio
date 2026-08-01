@@ -25,14 +25,14 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Sumit Prashant",
-      url: "https://vercel.com/sumit-prashant-s-projects",
+      url: "devfolio-sigma-six.vercel.app",
     },
   ],
   openGraph: {
     title: "Sumit Prashant | Frontend Developer",
     description:
       "Frontend Developer skilled in React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Bootstrap, and responsive web development. Explore my projects, experience, and portfolio.",
-    url: "https://vercel.com/sumit-prashant-s-projects",
+    url: "devfolio-sigma-six.vercel.app",
     siteName: "Sumit Prashant DevFolio",
     images: [
       {
