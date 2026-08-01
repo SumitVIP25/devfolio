@@ -74,7 +74,7 @@ export default function Hero() {
           <div className="flex justify-center">
             <div className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-sky-400 shadow-2xl">
               <Image
-                src="/professional-image.png"
+                src="/images/Professional-Image.png"
                 alt="Sumit Prashant"
                 width={384}
                 height={384}
