@@ -1,20 +1,19 @@
 import Link from "next/link";
+import DesktopMenu from "./DesktopMenu";
+import MobileMenu from "./MobileMenu";
 
-export default function Navbar() {
+export default function Header() {
   return (
-    <nav className="bg-slate-700 text-white shadow">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6  ">
-        <Link href="/" className="text-2xl font-bold text-blue-400 px-3">
-          DevFolio
+    <nav className="bg-slate-800 text-white shadow">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
+        <Link href="/" className="text-2xl font-bold">
+          <span className="text-white">Dev</span>
+          <span className="text-sky-400">Folio</span>
         </Link>
 
-        <div className="flex gap-8">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/projects">Projects</Link>
-          <Link href="/experience">Experience</Link>
-          <Link href="/contact">Contact</Link>
-        </div>
+        <DesktopMenu />
+
+        <MobileMenu />
       </div>
     </nav>
   );

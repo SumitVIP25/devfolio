@@ -4,8 +4,57 @@ import Footer from "./components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DevFolio - Sumit Prashant",
-  description: "Personal Portfolio Website of Sumit Prashant",
+  title: {
+    default: "%s | Sumit Prashant",
+    template: "%s | Sumit Prashant",
+  },
+  description:
+    "Frontend Developer skilled in React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Bootstrap, and responsive web development. Explore my projects, experience, and portfolio.",
+  keywords: [
+    "Sumit Prashant",
+    "Frontend Developer",
+    "Next.js Developer",
+    "TypeScript",
+    "JavaScript",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Responsive Web Development",
+    "Portfolio",
+    "Web Developer",
+  ],
+  authors: [
+    {
+      name: "Sumit Prashant",
+      url: "https://vercel.com/sumit-prashant-s-projects",
+    },
+  ],
+  openGraph: {
+    title: "Sumit Prashant | Frontend Developer",
+    description:
+      "Frontend Developer skilled in React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Bootstrap, and responsive web development. Explore my projects, experience, and portfolio.",
+    url: "https://vercel.com/sumit-prashant-s-projects",
+    siteName: "Sumit Prashant DevFolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sumit Prashant Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sumit Prashant | Frontend Developer",
+    description:
+      "Frontend Developer skilled in React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Bootstrap, and responsive web development. Explore my projects, experience, and portfolio.",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

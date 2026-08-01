@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-slate-50">
+    <section id="about" className="bg-slate-50 pt-12 pb-16 md:pt-20 md:pb-20">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center text-slate-900">
           About Me
@@ -13,7 +13,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="mt-14 max-w-4xl mx-auto text-center">
+      <div className="mt-14 max-w-4xl mx-auto px-6 text-center">
         <h3 className="text-2xl font-semibold text-slate-900">
           Frontend Developer
         </h3>
@@ -33,7 +33,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="mt-16 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
         <div className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-xl transition duration-300">
           <h3 className="text-xl font-semibold text-slate-900">Experience</h3>
           <p className="mt-3 text-slate-600">
