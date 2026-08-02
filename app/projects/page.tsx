@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Project() {
   return (
     <main className="min-h-screen bg-slate-50 py-20">
@@ -13,7 +15,14 @@ export default function Project() {
         </div>
 
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-slate-900">
+          <Image
+            src="/images/SeriesHubSearch-Results.png"
+            alt="SeriesHub"
+            width={936}
+            height={440}
+            className="w-full h-auto"
+          />
+          <h2 className="text-2xl font-bold text-slate-900 mt-6">
             SeriesHub – Series Discovery Web Application
           </h2>
           <p className="mt-2 text-sky-500 font-medium">
@@ -35,7 +44,7 @@ export default function Project() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://github.com/SumitVIP25?tab=repositories"
+              href="https://github.com/SumitVIP25/SeriesHub"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition"
@@ -57,7 +66,16 @@ export default function Project() {
         </div>
 
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-slate-900">HRMS Dashboard</h2>
+          <Image
+            src="/images/HRMSReports.png"
+            alt="HRMS Dashboard"
+            width={936}
+            height={429}
+            className="w-full h-auto"
+          />
+          <h2 className="text-2xl font-bold text-slate-900 mt-6">
+            HRMS Dashboard
+          </h2>
           <p className="mt-2 text-sky-500 font-medium">
             React.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap, React Router,
             Git, GitHub.
@@ -73,7 +91,7 @@ export default function Project() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://github.com/SumitVIP25?tab=repositories"
+              href="https://github.com/SumitVIP25/hrms-dashboard"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition"
@@ -104,7 +122,14 @@ export default function Project() {
         </div>
 
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-slate-900">
+          <Image
+            src="/images/DevFolio.png"
+            alt="DevFolio "
+            width={624}
+            height={286}
+            className="w-full h-auto"
+          />
+          <h2 className="text-2xl font-bold text-slate-900 mt-6">
             DevFolio Website - My Personal Portfolio
           </h2>
           <p className="mt-2 text-sky-500 font-medium">
@@ -122,7 +147,7 @@ export default function Project() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://github.com/SumitVIP25?tab=repositories"
+              href="https://github.com/SumitVIP25/devfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-sky-500 text-white px-6 py-3 rounded-lg hover:bg-sky-600 transition"
@@ -132,7 +157,7 @@ export default function Project() {
             </a>
 
             <a
-              href="#"
+              href="https://devfolio-sigma-six.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-sky-500 text-sky-500 px-6 py-3 rounded-lg hover:bg-sky-500 hover:text-white transition"

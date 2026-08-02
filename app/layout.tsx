@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "%s | Sumit Prashant",
+    default: "DevFolio | Sumit Prashant",
     template: "%s | Sumit Prashant",
   },
   description:
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Sumit Prashant",
-      url: "devfolio-sigma-six.vercel.app",
+      url: "https://devfolio-sigma-six.vercel.app",
     },
   ],
   openGraph: {
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.png",
   },
 };
 
